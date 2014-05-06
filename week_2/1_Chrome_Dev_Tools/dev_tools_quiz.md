@@ -1,5 +1,7 @@
 #### Include an inline screenshot of your codeschool's points from the profile page:
 
+<a href="http://s1287.photobucket.com/user/alanflorendo/media/DevToolsPoints_zps54c9b8df.jpg.html" target="_blank"><img src="http://i1287.photobucket.com/albums/a640/alanflorendo/DevToolsPoints_zps54c9b8df.jpg" border="0" alt=" photo DevToolsPoints_zps54c9b8df.jpg"/></a>
+
 <!-- Modify the Markdown to include your answers. Don't delete the questions! -->
 
 ##QUIZ
