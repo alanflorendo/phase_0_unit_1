@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // I worked by myself on this challenge
 
 // Your mission description:
@@ -47,11 +48,21 @@
 // STEP 5:  Mission Accomplished!
 
 
+=======
+// GPS 1.2 - JavaScript
 
-// Initial Code
+// YOUR FULL NAMES:
+//  1.  Alan FLorendo
+//  2.  Julius Jung
+
+>>>>>>> ec7a16c7d68b599d0237170c267007391058aa01
+
+// 1. "YOU SIGNED... WHO?!"
+//Meryl Streep
 
 
 
+<<<<<<< HEAD
 // CREATE BOARD SPACE
 
     // SET BOARD DIMENSIONS
@@ -193,9 +204,28 @@ console.log('Tharin says, "I have rescued you."');
 console.log('Princess says, "Bullshit!!  I saw what happened!"');
 
 
+=======
+// 2. "Here they Come!"
+var actor1 = {
+    name: "Adam Sandler",
+    age: 47,
+    quote: "That's your home!  Are you too good for your home?!"
+}
+>>>>>>> ec7a16c7d68b599d0237170c267007391058aa01
 
+var actor2 = {
+    name: "Kristen Bell",
+    age: 33,
+    quote: "Do you wanna build a snowman?"
+}
 
+var actor3 = {
+    name: "Jim Carrey",
+    age: 52,
+    quote: "...So you're telling me there's a chance? YEAH!"
+}
 
+<<<<<<< HEAD
 // Refactored Code
 // MAIN CHANGES:  (1) created function for Generic Play Move for Moves 1, 2 & 3
 //                (2) widened board for easier readibility
@@ -335,12 +365,24 @@ tharin.goUp(3);
 printBoard();
 console.log('Tharin says, "I have rescued you."');
 console.log('Princess says, "Bullshit!!  I saw what happened!"');
+=======
+>>>>>>> ec7a16c7d68b599d0237170c267007391058aa01
 
 
+// 3. "TIME IS MONEY!"
 
+var clients = new Array;
 
+function Client(name, age, quote) {
+    this.name = name;
+    this.age = age;
+    this.quote=quote;
+    clients[clients.length] = this;
+}
 
+//YOUR CODE HERE!
 
+<<<<<<< HEAD
 // Reflection
 /*
 This challenge had its ups and downs.  On the one hand, I really had trouble even understanding what we were 
@@ -373,3 +415,31 @@ during my time this week.
 
 
 */
+=======
+var shooterMcGavin = new Client("Shooter McGavin", 48, "Just stay out of my way... or you'll pay. Listen to what I say.");
+shooterMcGavin.constructor === Client;
+shooterMcGavin.age === 48;
+shooterMcGavin.quote === "Just stay out of my way... or you'll pay. Listen to what I say.";
+
+
+
+
+
+// 4. "SHOW 'EM OFF!"
+function Display(actor) {
+    console.log("This is " + actor.name + ".  He/She is " + actor.age + ".  His/Her favorite quote is " + actor.quote);
+}
+
+
+
+for (actors in Client) {
+  Display(actors);
+}
+
+
+
+// ** BONUS **
+
+
+//  Your Reflection:
+>>>>>>> ec7a16c7d68b599d0237170c267007391058aa01
