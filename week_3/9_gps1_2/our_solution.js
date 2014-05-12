@@ -72,5 +72,38 @@ actor2.showQuote();
 
 // ** BONUS **
 
+Client.prototype.movies = function(movie){
+    this.movie = movie;
+}
+
+actor1.movie = "51st Dates";
+actor2.movie = "The Grudge";
+actor3.movie = "Ace Ventura: Pet Detective";
+shooterMcGavin.movie = "Happy Gilmore";
+
+var checkMovie = function(inMovie) {
+    for (var i = 0; i < clients.length; i++) {
+        if (clients[i].movie === inMovie) {
+            console.log(clients[i].name + " was in the movie, " + inMovie + ".");
+        }
+    }
+}
+
+checkMovie("Happy Gilmore");
 
 //  Your Reflection:
+/*
+I really enjoyed pairing with Julius and my second GPS in general.  We both were in the same position on JavaScript:  
+we had studied all week, we had been successful with JS when we approached it slowly, and we were both quite 
+hesitant to exhibit our skills on the spot.  
+
+I think we both found the movie agent theme a little contrived, but we understood where it was trying to take us 
+and what the pedagogical value was.  We both worked well together, especially as we were patiently trying to execute 
+different shots in the dark: "let’s try this and see if it compiles" was a pretty common mantra of ours.  I think we 
+both enjoyed the nature of the project.  There was no test-driven code, but we could run it and clearly tell if it 
+was working.  If it was not, then we only needed to try two or three other steps to get us to where we needed to go.  
+
+Neither of us is especially familiar with JS, but I think we accomplished the learning objectives.  We get the idea 
+of creating arrays, giving them properties, and putting them into arrays.  Each of us can clearly spend time with 
+internet searches and error messages and, after a moment, get our JavaScript to do what it needs to do.
+*/

@@ -13,9 +13,9 @@
 // __________________________________________
 // Write your code below.
   // "The value of secretNumber should be a number."
-    var secretNumber = 4;
+    var secretNumber = 4
   // "The value of secretNumber should be 7."
-    secretNumber = 7;
+    secretNumber = 7
   // "The value of password should be a string."
     var password = "fun with javascript";
   // "The value of password should be 'just open the door'."
