@@ -56,8 +56,18 @@ lists status (untracked, modified, staged) of files in the index
 ## Release 4: Git Workflow
 
 - Push files to a remote repository
+git add FileName
+git commit -m 'comment' 
+git push origin master
+
 - Fetch changes
+git remote -v
+git fetch address
+git pull address
+
 - Commit locally
+git add FileName
+git commit -m 'comment'
 
 ## Release 5: Reflection
 <!-- I confess I am still confused by the need for using git at the command line.  From what I have read,
